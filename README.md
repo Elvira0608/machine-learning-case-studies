@@ -1,4 +1,4 @@
-# Salary Prediction Using Gradient Boosting
+# Machine Learning Case Studies: Regression and Clustering
 
 **Прогнозирование зарплат специалистов Data Science с помощью машинного обучения**
 Цель проекта - разработать модель для прогнозирования зарплат специалистов Data Science на основе профессионального опыта, должности, формата занятости и характеристик работодателя.
