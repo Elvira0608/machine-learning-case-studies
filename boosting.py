@@ -53,8 +53,13 @@ lr.fit(X_train, y_train)
 
 val_pred = lr.predict(X_val)
 
-print('MAPE: ', mean_absolute_percentage_error(y_val, val_pred))
-print('RMSE: ', mean_squared_error(y_val, val_pred)**0.5)
+print('Validation MAPE:', mean_absolute_percentage_error(y_val, val_pred))
+print('Validation RMSE:', mean_squared_error(y_val, val_pred)**0.5)
+
+lr_test_pred = lr.predict(X_test)
+
+print('Test MAPE:', mean_absolute_percentage_error(y_test, lr_test_pred))
+print('Test RMSE:', mean_squared_error(y_test, lr_test_pred)**0.5)
 
 #3
 from xgboost.sklearn import XGBRegressor
